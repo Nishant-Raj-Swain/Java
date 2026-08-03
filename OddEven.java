@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class OddEven{
 
     OddEven(int x){
@@ -12,8 +13,13 @@ class OddEven{
 
 class Main{
     public static void main(String args[]){
+        
+        Scanner sc = new Scanner(System.in);
 
-        OddEven obj = new OddEven(8);
+        System.out.println("Enter a no. : ");
+        int x = sc.nextInt();
+
+        OddEven obj = new OddEven(x);
 
     }
 }

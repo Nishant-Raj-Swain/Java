@@ -20,6 +20,23 @@ class Array{
         }
 
 
+        System.out.print("\n");
+
+        //reverse order
+
+        System.out.print("Reverse order : ");
+        for(int i =arr.length-1;i>=0;i--){
+            System.out.print(arr[i]+" ");
+        }
+
+        System.out.print("\n");
+
+        //length of array
+        System.out.println("Array length : "+ arr.length);
+
+
+
+
     }
 
 }

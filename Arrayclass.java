@@ -1,4 +1,5 @@
 import java.util.*;
+import javax.swing.text.GapContent;
 class Arrayclass{
     public static void main(String []args){
         int arr1[] = new int[]{10,20,30,40,50};
@@ -9,6 +10,20 @@ class Arrayclass{
         //Arrays.equals()
 
         System.out.println(Arrays.equals(arr1,arr2));
+
+        // ==
+
+        System.out.println(arr1 == arr2);
+
+
+
+        //Another e.g(if arr len diff)
+
+        int z[] = new int[6];
+        int m[] = new int[7];
+         
+         System.out.println(Arrays.equals(z,m));
+
 
 
          System.out.print("\n ");
